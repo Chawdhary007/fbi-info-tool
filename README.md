@@ -18,8 +18,8 @@ $ apt update && apt upgrade
 $ apt install git python2 
 $ pip install mechanize
 $ https://github.com/Chawdhary007/fbi-info-tool.git 
-$ cd fbi
-```
+$ cd fb-info-tool
+``
 
 # [ Setup ]
 ```
