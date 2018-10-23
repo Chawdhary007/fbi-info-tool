@@ -50,48 +50,49 @@ def baliho():
 
 
 	except (KeyError,IOError):
-	 
+
 	        print ' ' + W
                 print ('Fbi info gather tool pro').center(44)
-                print (W + '     [' + G +'DEVELPOD BY ANAS CHAWDHARY'+ W + ']')
+                print (W + '[' + G +'DEVELPOD BY ANAS CHAWDHARY'+ W + ']')
                 print ('How to use >type help< press enter').center(44)
                 print ' '
 ####################################################################
 #		    Print In terminal
-def show_Developer():
+def show_program():
 
 	print '''
                     %sINFORMATION%s
  ------------------------------------------------------
 
- Developer     Anas chawdhary
- nickname      Hunter
- Tool Name     Fb info gether tool
- Version       Full pro  Version
- Date          22/10/2018 updated
- Email         anaschawdhary157@gmail.com
-           
-            facebook contact
-      https://web.facebook.com/Anas.chawdhary157
+        programmer    Anas chawdhary
+        nickname      Hunter
+        Tool Name     Fb info gether tool
+        Version       Full pro  Version
+        Date          22/10/2018 updated
+        Email         anaschawdhary157@gmail.com
+       
+        facebook contact
 
-* if you find any errors or problems , please contact
-  author
+     https://web.facebook.com/Anas.chawdhary157
+
+ * if you find any errors or problems , please 
+contact me
 '''%(G,W)
 def info_ga():
 
 	print '''
      %sCOMMAND                      DESCRIPTION%s
   -------------       -------------------------------------
- 
-           First give tokken Access by token command
 
-   get_data           fetching all friends data
-   get_info           show information about your friend
+           First give token Access by token command
 
-   dump_id            fetching all id from friend list
-   dump_phone         fetching all phone number from friend list
-   dump_mail          fetching all emails from friend list
-   dump_<id>_id       fetching all id from your friends <spesific>
+  get_data      fetching all friends data
+  get_info      show information about your friend
+
+  dump_id       fetching all id from friendlist
+  dump_phone    get all phone number from friendlist
+  dump_mail     get  all emails from friend list
+ dump_<id>_id   get all id from ur friends <spesific>
 		      ex: dump_username_id
 
    token              Generate access token
@@ -100,10 +101,10 @@ def info_ga():
 
    bot                open bot menu
 
-   clear              clear terminal
-   help               show help
-   about              Show information about this program
-   exit               Exit the program
+   clear        clear terminal
+   help         show help
+   about        Show information about programmer
+   exit         Exit the program
 '''%(G,W)
 def menu_bot():
 	print '''
