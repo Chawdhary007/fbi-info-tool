@@ -52,18 +52,20 @@ def baliho():
 	except (KeyError,IOError):
 	 
 		print ' ' + W
-		print ('F B I').center(44)
-		print (W + '     [' + G +'Facebook Information'+ W + ']')
+		print ('Fb info gather tool updated pro version').center(44)
+                print (W + '[' + G +'Develpod by Anas chawdhary'+ W + ']')
+                print ('How to use>>>type help<<< press enter').center(44)
 		print ' '
 ####################################################################
 #		    Print In terminal
-def show_program():
+def show_nickname():
 
 	print '''
                     %sINFORMATION%s
  ------------------------------------------------------
 
- Developer     Anas chawdhary | lolcat -a -d 50
+ Developer     Anas chawdhary
+ nickname      Hunter
  Tool Name     Fb info gether tool
  Version       Full pro  Version
  Date          22/10/2018 updated
@@ -71,6 +73,7 @@ def show_program():
            
             facebook contact
       https://web.facebook.com/Anas.chawdhary157
+
 * if you find any errors or problems , please contact
   author
 '''%(G,W)
@@ -79,6 +82,8 @@ def info_ga():
 	print '''
      %sCOMMAND                      DESCRIPTION%s
   -------------       -------------------------------------
+ 
+           First give tokken Access by token command
 
    get_data           fetching all friends data
    get_info           show information about your friend
