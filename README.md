@@ -15,8 +15,9 @@ FBI is an accurate facebook account information gathering, all sensitive informa
 # [ Installation ]
 ```
 $ apt update && apt upgrade
-$ apt install git python2
-$ git clone https://github.com/xHak9x/fbi.git
+$ apt install git python2 
+$ pip install mechanize
+$ https://github.com/Chawdhary007/fbi-info-tool.git 
 $ cd fbi
 ```
 
@@ -26,7 +27,7 @@ $ pip2 install -r requirements.txt
 ```
 # [ Running ]
 ```
-$ python2 fbi.py
+$ python2 Hunter.py
 ```
 
 * if you are confused how to use it, please type 'help' to display the help menu
