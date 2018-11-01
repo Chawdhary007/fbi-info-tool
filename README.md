@@ -27,6 +27,7 @@ $ pip2 install -r requirements.txt
 ```
 # [ Running ]
 ```
+$ chmod +x Hunter.py
 $ python2 Hunter.py
 ```
 
